@@ -1,0 +1,41 @@
+# Python and local environments
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.DS_Store
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# Training outputs, checkpoints, and generated datasets
+Final_Results_QECCT/
+data/
+datasets/
+outputs/
+runs/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.npy
+*.npz
+*.csv
+*.parquet
+*.h5
+*.hdf5
+*.jsonl
+*.log
+logging.txt
+
+# Documents
+README.md
+docs/
+presentation/
+*.pdf
+*.docx
+*.pptx
+*.xlsx
+vendor/dqec_paper/README_QECCT_MPS.md
